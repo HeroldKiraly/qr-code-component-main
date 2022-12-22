@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textContainer {
+    margin: 1rem 1rem 1.75rem 1rem;
+}
+
+.primaryText, .secondaryText {
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.primaryText {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.secondaryText {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%)
+}
+
+.wrapper {
+    border-radius: 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+    width: 325px;
+    box-shadow: hsl(220, 15%, 55%) 0rem 1rem 2rem -2rem;
+}
+
+.imageContainer {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.qrCode {
+    border-radius: 0.75rem;
+    width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin: 3rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
