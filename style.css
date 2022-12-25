@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 15px;
+    font-size: 93.75%;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -38,7 +38,7 @@ body {
     color: hsl(220, 15%, 55%)
 }
 
-.wrapper {
+main {
     border-radius: 1.5rem;
     background-color: hsl(0, 0%, 100%);
     width: 325px;
@@ -54,12 +54,15 @@ body {
     width: 100%;
 }
 
-.attribution { 
+footer { 
+    display: absolute;
+    position: fixed;
+    bottom: 1rem;
     font-size: 11px; 
     text-align: center;
     margin: 3rem;
 }
 
-.attribution a {
+footer a {
     color: hsl(228, 45%, 44%); 
 }
